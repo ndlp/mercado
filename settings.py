@@ -16,7 +16,6 @@ NEWSPIDER_MODULE = 'mercado.spiders'
 
 #CSV IMPORTACION
 ITEM_PIPELINES = {'mercado.pipelines.MercadoPipeline': 500,
-					'mercado.pipelines.MercadoImagenesPipeline': 600, }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'mercado (+http://www.yourdomain.com)'
